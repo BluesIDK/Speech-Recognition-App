@@ -50,7 +50,9 @@ def main():
     st.write("This app lets you record and transcribe speech using different APIs.")
 
     # Select API
-    api_choice = st.selectbox("Choose Speech Recognition API:", ["Google", "Sphinx"])
+    AVAILABLE_APIS = ["Google"]
+    st.warning("⚠️ Only Google API is supported on Streamlit Cloud.")
+    api_choice = st.selectbox("Choose Speech Recognition API:", AVAILABLE_APIS)
 
     # Language Selection
     language_map = {
