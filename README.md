@@ -1,4 +1,4 @@
-# 🗣️ Speech Recognition App 
+# 🗣️ Speech Recognition App https://speech-recognition-app-gezewwxdd42xnskcgcv5xr.streamlit.app/
 
 Welcome to your personal voice-to-text assistant — a lightweight, beginner-friendly, and surprisingly powerful speech transcription app built with **Python** and **Streamlit**.  
 Whether you're dictating thoughts, transcribing interviews, or just curious about voice AI — this app listens, understands, and types it out for you. In real-time.
@@ -17,10 +17,8 @@ At its core, this app:
 
 And all of that is controlled via a beautiful, minimal Streamlit web interface — no coding experience required. Just click and speak.
 
-You can choose between:
+You can choose :
 - **Google Web Speech API**: Accurate, cloud-powered transcription
-- **CMU Sphinx**: Offline, no-internet-needed transcription (works best with clear English)
-
 ---
 
 ## 🌐 Supported Languages
